@@ -39,6 +39,11 @@ Make a new branch
 git branch <branch name>
 ```
 \
+See all branches, and which one you are working in.
+```
+git branch -a
+```
+\
 Push local branch to remote
 ```
 git push -u <remote> <branch name>
