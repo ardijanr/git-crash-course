@@ -7,6 +7,7 @@
 2. Click the green "Code" button, make sure you have SSH selected, and copy the link.
 
 3. Open a terminal and navigate to a folder where you want to place the repository.
+	\
 	 3.1 Its often nice to just create a repos folder where you can place cloned repositories.
 	 3.2 From your home folder type ``` mkdir repos ```
 	 3.3 Open the folder ``` cd repos ```
