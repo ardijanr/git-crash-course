@@ -1,3 +1,4 @@
+
 # Git crash course SSH setup
 
 
@@ -7,44 +8,38 @@
 # Adding an ssh key to your computer.
 #### Windows users MUST use powershell, run it as administrator.
 
-1. Open the .ssh folder
+1. Open Powershell as administrator
 
+2. We need to enable ssh-agent autostart
+	```
+	Get-Service ssh-agent | Set-Service -StartupType Automatic
+	```
 
-Get-Service ssh-agent | Set-Service -StartupType Manual
+3. Start ssh-agent
+	```
+	Start-Service ssh-agent
+	```
 
-    We need to enable ssh-agent autostart
-    ```
-    Get-Service ssh-agent | Set-Service -StartupType Manual
-    ```
-
-    Start ssh-agent
-    ```
-    Start-Service ssh-agent
-    ```
-
-    Move to home folder
+4. Move to home folder
 	```
 	cd c:/users/<username>/
-    ```
-
-    Open .ssh folder
-    ```
-    cd .ssh
 	```
 
-	1.1 If the folder was not found create it with this command.
+5. Open .ssh folder
+	```
+	cd .ssh
+	```
+
+	5.1 If the folder was not found create it with this command.
 	```
 	mkdir .ssh
 	```
-2. Create a new ssh key, use an ed25519 key
+6. Create a new ssh key, use an ed25519 key, don't set a name for the file, if you are asked to overwrite press y.
 	```
 	ssh-keygen -t ed25519
 	```
-1. Start ssh-agent.
-	```
-	eval $(ssh-agent)
-	```
-1. Add the private key to ssh agent.
+
+8. Add the private key to ssh agent.
 	```
 	ssh-add <keyname>
 	```
