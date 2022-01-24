@@ -30,8 +30,13 @@
 
 # Register the ssh-key in github
 1. In the terminal open the .ssh folder.
-	```
+\
+	Go to home folder
+    ```
 	cd
+    ```
+    Open .ssh folder
+    ```
 	cd .ssh
 	```
 
