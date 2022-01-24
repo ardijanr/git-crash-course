@@ -14,7 +14,7 @@
 4. In your terminal use the ``git clone`` command from the cheatsheat to clone the repository.
 5. Open the repository folder ``cd <folder name>``
 6. Create a new python file ``touch <file name>.py``
-7. Open the repository favourite code editor, and edit your newly created file. Write something, ex. `` print("Hello World") ``
+7. Open the repository in your favourite code editor, and edit your newly created file. Write something, ex. `` print("Hello World") ``
 8. Add the file to git using the ``git add`` command (use cheatsheet).
 9. Commit the file using ``git commit`` (use cheatsheet).
 9. Push the file to remote using ``git push`` command.
