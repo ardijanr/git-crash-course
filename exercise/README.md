@@ -7,6 +7,7 @@
 2. Click the green "Code" button, make sure you have SSH selected, and copy the link.
 
 3. Open a terminal and navigate to a folder where you want to place the repository.
+	\
 	 3.1 Its often nice to just create a repos folder where you can place cloned repositories.
 	 3.2 From your home folder type ``` mkdir repos ```
 	 3.3 Open the folder ``` cd repos ```
@@ -14,10 +15,11 @@
 4. In your terminal use the ``git clone`` command from the cheatsheat to clone the repository.
 5. Open the repository folder ``cd <folder name>``
 6. Create a new python file ``touch <file name>.py``
-7. Open your favourite code editor and write something into the file ex. `` print("Hello World") ``
+7. Open the repository in your favourite code editor, and edit your newly created file. Write something, ex. `` print("Hello World") ``
 8. Add the file to git using the ``git add`` command (use cheatsheet).
+9. Commit the file using ``git commit`` (use cheatsheet).
 9. Push the file to remote using ``git push`` command.
-10. Check github to see if the file is there.
+11. Check github to see if the file is there.
 
 
 # Branching
