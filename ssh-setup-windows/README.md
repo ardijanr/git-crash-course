@@ -34,7 +34,7 @@
 	```
 	mkdir .ssh
 	```
-6. Create a new ssh key, use an ed25519 key, don't set a name for the file, if you are asked to overwrite press y.
+6. Create a new ssh key, use an ed25519 key, DO NOT set a name for the file, if you are asked to overwrite press y.
 	```
 	ssh-keygen -t ed25519
 	```
